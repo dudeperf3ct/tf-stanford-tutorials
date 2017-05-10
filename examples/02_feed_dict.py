@@ -30,4 +30,4 @@ with tf.Session() as sess:
 	replace_dict = {a: 15}
 
 	# Run the session, passing in 'replace_dict' as the value to 'feed_dict'
-	sess.run(b, feed_dict=replace_dict) # >> 45
+	print sess.run(b, feed_dict=replace_dict) # >> 45
